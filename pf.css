@@ -1,0 +1,34 @@
+*{
+    
+}
+nav{
+    display: inline-block;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: fit-content;
+    width:100%;
+}
+nav ul{
+    transform: translateX(0px);
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+nav ul li{
+    margin-left: 0%;
+    
+    justify-content: space-around;
+}
+#form1{
+    width: fit-content;
+}
+.foot{
+    height: fit-content;
+    
+    justify-content: space-evenly;
+    padding-top: 20px;
+}
+.medi{
+    height: 50px;
+    width: 180px;
+    margin-bottom: 10px;
+}

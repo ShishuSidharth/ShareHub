@@ -1,0 +1,131 @@
+*{
+    
+}
+header {
+    
+    background-position: 0px -2px;
+    background-repeat: no-repeat;
+    height: fit-content;
+    padding-bottom: 20px;
+}
+#btn{
+    display: block;
+    position: relative;
+    float:right;
+   height:  22px;
+    width: 22px;
+    padding-right: 15px;
+   
+   
+}
+nav{
+    display: inline-block;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: max-content;
+    width:100%;
+}
+#list{
+    display: inline-flex;
+    flex-direction: column;
+    transform: translateX(0px);
+    justify-content: space-evenly;
+    align-items: center;
+    float: inline-start;
+    margin-bottom: 10px;
+
+}
+#list{
+    margin-left: 0px;
+    height: fit-content;
+    justify-content: space-evenly;
+    
+}
+p {
+    color: cornsilk;
+    font-size: 16px;
+    font-family: sans-serif;
+    align-self: center;
+    margin-top: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+h2 {
+    font-size: 32px;
+    color: white;
+    margin-top: 50px;
+}
+div{
+    height: fit-content;
+    background-repeat: no-repeat;
+}
+#tr{
+    background-position: 0px 0px;
+}
+.foot{
+    height: fit-content;
+    width: fit-content;
+    justify-content: center;
+    align-content: center;
+}
+.big{
+    font-size: 15px;
+    padding-bottom: 10px;
+    justify-content: space-evenly;
+}
+.big:hover{
+    font-size: 10px;
+    width: auto;
+    height: fit-content;
+}
+#article3:hover{
+    transition-duration: 0.6s;
+    
+    transform:translateX(-80px) scale(2);
+    border:2px solid red;
+}
+#article6:hover{
+    transition-duration: 0.6s;
+    
+    transform:translateX(-80px) scale(2);
+    border:2px solid red;
+}
+#article9:hover{
+    transition-duration: 0.6s;
+    
+    transform:translateX(-80px) scale(2);
+    border:2px solid red;
+}
+#article1:hover{
+    transition-duration: 0.6s;
+    
+    transform:translateX(80px) scale(2);
+    border:2px solid red;
+}#article4:hover{
+    transition-duration: 0.6s;
+    
+    transform:translateX(80px) scale(2);
+    border:2px solid red;
+}#article7:hover{
+    transition-duration: 0.6s;
+    
+    transform:translateX(80px) scale(2);
+    border:2px solid red;
+}
+#article2:hover{
+    transition-duration: 0.6s;
+    
+    transform: scale(2);
+    border:2px solid red;
+}
+#article5:hover{
+    transition-duration: 0.6s;
+    
+    transform: scale(2);
+    border:2px solid red;
+}#article8:hover{
+    transition-duration: 0.6s;
+    
+    transform: scale(2);
+    border:2px solid red;
+}

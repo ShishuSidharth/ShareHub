@@ -15,6 +15,7 @@ header {
    height:  22px;
     width: 22px;
     padding-right: 15px;
+    opacity: 0.8;
    
    
 }
@@ -26,7 +27,7 @@ nav{
     width:100%;
 }
 #list{
-    display: inline-flex;
+    display: none;
     flex-direction: column;
     transform: translateX(0px);
     justify-content: space-evenly;
